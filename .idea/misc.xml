@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/activity_command.xml" value="0.264" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/activity_contact.xml" value="0.1875" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/activity_log.xml" value="0.264" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/activity_macaron.xml" value="0.264" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/activity_macaron2.xml" value="0.1875" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/activity_order.xml" value="0.2" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/activity_product_crudactivity.xml" value="0.264" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/activity_setting.xml" value="0.264" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/activity_setting2.xml" value="0.184765625" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/all_item.xml" value="0.1" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/conitem.xml" value="0.264" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/fragment_product.xml" value="0.1875" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/fragment_show_product.xml" value="0.264" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/layout/macar_order.xml" value="0.536" />
+        <entry key="..\:/Users/meitr/AndroidStudioProjects/POS/app/src/main/res/xml/file_paths.xml" value="0.1875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

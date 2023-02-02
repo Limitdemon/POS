@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="198dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="939dp"
+        android:layout_marginBottom="305dp"
+        android:text="Change UI Settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="195dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="939dp"
+        android:layout_marginBottom="436dp"
+        android:text="Update Branch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:text="Stamford POS Setting"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="187dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="941dp"
+        android:layout_marginBottom="81dp"
+        android:text="Setup Branch"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="636dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="636dp"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/Contactbtn"
+        android:layout_width="196dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="491dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="40dp"
+        android:text="contact"
+        app:layout_constraintBottom_toTopOf="@+id/Takeaphotobtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Takeaphotobtn"
+        android:layout_width="198dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="482dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="600dp"
+        android:text="Take a photo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button10"
+        app:layout_constraintTop_toBottomOf="@+id/Contactbtn" />
+
+    <LinearLayout
+        android:id="@+id/Photolayout"
+        android:layout_width="336dp"
+        android:layout_height="319dp"
+        android:layout_marginStart="407dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="52dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/Takeaphotobtn"
+        app:layout_constraintVertical_bias="1.0"></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
